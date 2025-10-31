@@ -13,7 +13,8 @@ CREATE TABLE UNIDADE (
 CREATE TABLE ATENDENTE (
     id_atendente SERIAL PRIMARY KEY,
     nome VARCHAR(255),
-    email VARCHAR(255)
+    email VARCHAR(255),
+    senha VARCHAR(255) -- Atributo de senha adicionado para autenticação
 );
 
 CREATE TABLE PAPEL_ACESSO (
